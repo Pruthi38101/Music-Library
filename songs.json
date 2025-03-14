@@ -1,0 +1,63 @@
+[
+    {
+        "artist": "jasmin rathore",
+        "image": "imagefolder/into your arms.jpg",
+        "songurl": "musicfolder/Into-Your-Arms(PagalNew.Com.Se).mp3",
+       "songname":"Into Your Arms" 
+    },
+    {
+        "artist": "swainpruthiraj",
+        "image": "pruthi.jpg",
+        "songurl": "",
+        "songname":"Night Changes"
+    },
+    {
+        "artist": "akashkumar",
+        "image": "imagefolder/jiki miki othhe jhhara.jpg",
+        "songurl": "musicfolder/Chiki-miki-othe-jhara-(Dharma-Nikiti)-(OdiaFresh.Com).mp3",
+        "songnaurlme":"Jiki Miki Othhe Jhhara"
+    },
+    {
+        "artist": "Gopala",
+        "image": "imagefolder/krishna kaberi.jpg",
+        "song": "musicfolder/Krushna-Kaberi-Krushna-Kaberi-(OdiaFresh.Com).mp3",
+        "songname":"krishna kaberi"
+    },
+
+    {
+        "artist": "badal swain",
+        "image": "imagefolder/let me slow down.jpg",
+        "songurl": "musicfolder/Don't-Let-Me-Down(PagalNew.Com.Se).mp3",
+        "songname":"Let Me Slow Down"
+    },
+    {
+        "artist": "pruthiraj swain",
+        "image": "imagefolder/mohabatt barsha dena tu.jpg",
+        "songurl": "musicfolder/Mohabbat-Barsa-Dena-Tu-Sawan-Aaya-Hai(PagalNew.Com.Se).mp3",
+        "songname":"Mohabatt Barsha Dena Tu"
+    },
+    {
+        "artist": "Jasmin rath",
+        "image": "imagefolder/sadhhaba bohu.jpg",
+        "songurl": "musicfolder/Sadhaba-Bohu-Lo-(OdiaFresh.Com).mp3",
+        "songname":"Sadhhab Bohu"
+    },
+    {
+        "artist": "Allen Walker",
+        "image": "imagefolder/shape of you.jpg",
+        "songurl": "musicfolder/Shape-Of-You(PagalNew.Com.Se).mp3",
+        "songname":"Shape Of You"
+    },
+    {
+        "artist": "pruthiraj swain",
+        "image": "imagefolder/mohabatt barsha dena tu.jpg",
+        "songurl": "Jaane Tu - Chhaava 128 Kbps.mp3",
+        "songname":"Mohabatt Barsha Dena Tu"
+    },
+    {
+        "artist": "pruthiraj swain",
+        "image": "imagefolder/mohabatt barsha dena tu.jpg",
+        "songurl": "Jaane Tu - Chhaava 128 Kbps.mp3",
+        "songname":"Mohabatt Barsha Dena Tu"
+    }
+]

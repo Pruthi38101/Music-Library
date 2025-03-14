@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Website.Music Player</title>
+    <link rel="icon" href="spotify.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="main relative">
+
+        <div class="upperbar  m1">
+
+            <div class="leftsidebar ">
+                <div class="spotifylogo">
+                    <img src="all icons/spotify.svg" width=50px height=50px>
+                </div>
+                <div class="left logo">
+                    <img src="all icons/lefticon.svg" alt="leftarrow" class="invert p2" width=20px height=20px>
+                </div>
+                <div class="logo2">
+                    <img src="all icons/righticon.svg" alt="rightlogo" class="p2 invert" width=20px height=20px>
+                </div>
+            </div>
+            <div class="rightsidebar absolute ">
+                <div class="homelogo ">
+                    <img src=" all icons/home.svg" class="invert" alt="home logo" width=40px height=40px>
+                </div>
+                <div class="searchbar">
+                    <input type="text" placeholder="what do you want to search">
+                </div>
+            </div>
+            <div class="signup absolute ">
+                <div class="signuplogo">
+                    <img src="all icons/sign up.svg" alt="signup" width=50px class="invert" height=50px>
+                </div>
+                <div class="text">
+                    <p class="p2">Sign Up</p>
+                </div>
+            </div>
+        </div>
+        <div class="container m1 p2 ">
+            <div class="leftside border relative ">
+                <div class="leftsidesticky">
+                    <div class="library flex ">
+                        <img src="all icons/librarylogo.svg" class="invert" alt="">
+                        <p>Your Playlist</p>
+                        <img src="all icons/plus.svg" alt="plus" class="plus invert">
+                    </div>
+                    <button>Playlists</button>
+                    <button>Artists</button>
+                    <div class="searchandrecent m2">
+                        <img src="all icons/additionalsearch.svg" width=30px class="invert" alt="search">
+                        <div class="recents flex gap">
+                            <p class="p3">Recents</p>
+                            <img src="all icons/recents.svg" alt="recents" width=30px class="invert">
+                        </div>
+                    </div>
+                </div>
+                <div class="content m1 p2">
+                    <div class="playlist">
+                        <div class="song flex">
+                            <img src="pruthi.jpg" alt="pruthi">
+                            <div class="textdiv2">
+                                <p style="font-size: 25px;"> dil de diya hai</p><br>
+                                <p class="textsize">Artist:Pruthiraj swain</p>
+                            </div>
+                        </div>
+                        <div class="song flex">
+                            <img src="pruthi.jpg" alt="pruthi">
+                            <div class="textdiv2">
+                                <p style="font-size: 25px;"> Alice in boderland season2</p><br>
+                                <p class="textsize">Artist:Pruthiraj swain</p>
+                            </div>
+                        </div>
+                        <div class="song">
+                            <img src="pruthi.jpg" alt="pruthi">
+                            <div class="textdiv2">
+                                <p style="font-size: 25px;"> alice</p><br>
+                                <p class="textsize">Artist:Pruthiraj</p>
+                            </div>
+                        </div>
+                        <div class="song flex">
+                            <img src="pruthi.jpg" alt="pruthi">
+                            <div class="textdiv2">
+                                <p style="font-size: 25px;"> mohabatt barsha dena tu</p><br>
+                                <p class="textsize">Artist:Pruthiraj</p>
+                            </div>
+                        </div>
+                        <div class="song flex">
+                            <img src="pruthi.jpg" alt="pruthi">
+                            <div class="textdiv2">
+                                <p style="font-size: 25px;"> barishu</p><br>
+                                <p class="textsize">Artist:Pruthiraj swain</p>
+                            </div>
+                        </div>
+                        <div class="song flex">
+                            <img src="pruthi.jpg" alt="pruthi">
+                            <div class="textdiv2">
+                                <p style="font-size: 25px;"> odia songs</p><br>
+                                <p class="textsize">Artist:Pruthiraj swain</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightside border relative">
+                <div class="toolbar">
+                    <p class="rightsidetext">Made For Pruthiraj</p>
+                    <p class="textsize">show all</p>
+                </div>
+                <div class="content p">
+                    <div class="songboxes">
+                        <div class="box">
+                            <div class="imagebox relative">
+                                <img src="pruthi.jpg" alt="image1">
+                            </div>
+
+                            <div class="stickyplaybutton absolute">
+                                <img src="all icons/playbutton.svg" width="50px" height="50px" alt="playbutton">
+                            </div>
+                            <div class="textdiv textsize">
+                                <p>first song : dil de diya hai</p>
+                                <p>Artist:pruthiraj</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="div1"></div>
+            <div class="div2">
+                <div class="songbars">
+                    <div class="button invert">
+                        <img src="all icons/leftplay.svg" height="33px" width="33px" alt="leftplay">
+                    </div>
+                    <audio class="audio"></audio>
+                    <div class="button invert">
+                        <div class="play">
+
+                            <img src="all icons/playbutton.svg" class="toggle" height="33px" width="33px" alt="rightbutton">
+                        </div>
+
+                    </div>
+                    <div class="button invert">
+                        <img src="all icons/rightplay.svg" id="rightbutton" height="33px" width="33px"
+                            alt="rightbutton">
+                    </div>
+                </div>
+                <div class="progresscontainer">
+                    <div class="progressbar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+.invert {
+    filter: invert(100%);
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.border {
+    border-radius: 7px;
+}
+
+.m1 {
+    margin: 20px;
+}
+
+.p2 {
+    padding-top: 15px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.plus {
+    width: 15px;
+    position: absolute;
+    right: 12px;
+    padding-top: 7px;
+}
+
+.p3 {
+    padding-top: 8px;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.m2 {
+    margin-top: 30px;
+}
+
+/*right box*/
+.p {
+    padding: 50px;
+}
+
+.textsize {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-right: 20px;
+}
+#artist{
+    font-size: 10px;
+}
+.textdiv{
+    margin-left:17px;
+}
+#exception{
+    font-size: 14px;
+}
+#exception1{
+    font-size: 23px;
+}

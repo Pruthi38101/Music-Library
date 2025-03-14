@@ -1,0 +1,383 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+}
+
+.upperbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 45px;
+    padding: 5px;
+
+}
+
+.leftsidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    left: 0;
+}
+
+.rightsidebar {
+    display: flex;
+
+   
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    left: 450px;
+    padding: 7px;
+    width: 700px;
+    min-height: 50px;
+}
+
+.signup {
+    display: flex;
+    gap: 20px;
+    right: 5px;
+}
+
+/* .searchbar{
+    background-color:rgb(36, 36, 36);
+} */
+.searchbar input {
+    margin-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 550px;
+    font-size: 35px;
+    border: none;
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+.searchbar {
+    border-radius: 21%;
+    background-color: rgb(36, 36, 36);
+    width: 650px;
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.homelogo {
+    min-width: 85px;
+    min-height: 85px;
+    border-radius: 50%;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+}
+
+/*leftside*/
+.leftsidesticky {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+}
+
+.library {
+    padding: 20px;
+
+}
+
+.searchbar {
+    padding-bottom: 5px;
+}
+
+.homelogo {
+    padding-top: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.leftside {
+    width: 30vw;
+    background-color: rgb(36, 36, 36);
+    margin: 7px;
+
+}
+
+.content {
+    max-height: 30vw;
+    overflow: auto;
+    overflow: auto;
+    scrollbar-width: thin;
+
+}
+
+
+.library img {
+    max-width: 35px;
+    margin-left: 15px;
+}
+
+.library p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+/*playlist section*/
+.song {
+    height: 125px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#im {
+    height: 70%;
+    width: 4.5vw;
+    border-radius: 25%;
+    margin: 9px;
+
+}
+
+.textdiv2 {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 15px;
+    justify-self: flex-start;
+    width: 20vw;
+}
+
+.stickyplaybutton img {
+    justify-self: flex-end;
+}
+
+.song:hover {
+
+    background-color: rgb(11, 41, 1);
+}
+
+
+.leftsidesticky button {
+
+    gap: 5px;
+    text-align: center;
+    border-radius: 7px;
+    width: 97px;
+    height: 24px;
+    background-color: grey;
+    color: white;
+    margin-left: 25px;
+}
+
+.searchandrecent {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.searchandrecent img {
+    margin-left: 25px;
+}
+
+.playlist {
+    max-height: 100vw;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f0f0f0;
+}
+
+.leftside:hover {
+    box-shadow: 10px 10px 50px green;
+    border-radius: 15px;
+}
+
+.rightside:hover {
+    box-shadow: 10px 10px 50px green;
+    border-radius: 15px;
+}
+
+/*right side*/
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    min-height: 80px;
+}
+
+.rightsidetext {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.rightside {
+    width: 70vw;
+    background-color: rgb(36, 36, 36);
+    margin: 7px;
+}
+
+.box {
+    width: 280px;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+}
+
+.stickyplaybutton {
+    position: sticky;
+    right: 40px;
+    bottom: 100px;
+    background-color: black;
+    border-radius: 50%;
+    width: 3.5vw;
+    height: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stickyplaybutton:hover {
+    width: 3.7vw;
+    height: 3.7vw;
+    background-color: #121212;
+}
+
+.songboxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 10px;
+}
+
+.imagebox img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7%;
+}
+
+.imagebox {
+    margin: 16px;
+    height: 65%;
+    width: 85%;
+}
+
+.box:hover {
+    box-shadow: 1px 1px 20px red;
+    background-color: black
+}
+
+/*footer*/
+.footer {
+    min-height: 150px;
+    width: 100vw;
+    background-color:black;
+    position: fixed;
+    bottom: 1px;
+    border-radius: 15px;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+
+}
+
+.div1 {
+    width: 40vw;
+}
+
+.div2 {
+    width: 60vw;
+    height: 100%;
+    margin-top: 0;
+    padding: 0;
+}
+
+.songbars {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+
+.button:hover {
+    border-radius: 30%;
+    background-color: rgb(249, 8, 8) !important;
+    box-shadow: 0px 0px 30px rgb(3, 235, 3) !important;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.button img {
+    justify-self: center;
+    align-self: center;
+    margin-left: 12px;
+}
+.play{
+    margin-top:10px;
+}
+
+.button {
+    width: 2.3vw;
+    height: 2.3vw;
+    border-radius: 50%;
+    display: flex;
+    background-color: rgb(249, 8, 8) !important;
+    box-shadow: 0px 0px 30px rgb(3, 235, 3) !important;
+}
+
+.progresscontainer {
+    justify-self: center;
+    width: 45vw;
+    height: 10px;
+    border: 2px solid white;
+    margin: 20px 0;
+    box-shadow: 0 0 15px rgb(3, 235, 3);
+}
+
+.progressbar {
+    width: 0%;
+    height: 100%;
+    background-color: green;
+    position: absolute;
+}
+
+.footersong {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.footersong img {
+    width: 10vw;
+    height:100px;
+}
+
+.footertextdiv {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:30px;
+}
+@media (max-width: 200px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .leftside, .rightside{
+        flex: none;
+        width: 100%;
+        height:100%;
+        text-align: center;
+    }
+}
